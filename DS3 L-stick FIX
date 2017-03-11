@@ -1,0 +1,13 @@
+[vid=0x054c,pid=0x0268]
+//This is a fix for the DualShock 3 controller if you only have trouble with the left analogue stick.
+
+//Thumbsticks
+VPad_L_Stick_X			      = 	0x06,0x80
+VPad_L_Stick_X_MinMax	  	=	  0x00,0xFF
+VPad_L_Stick_X_Deadzone 	=	  0x06
+VPad_L_Stick_X_Invert	  	= 	False
+
+VPad_L_Stick_Y			      =	  0x07,0x80
+VPad_L_Stick_Y_MinMax		  =	  0x00,0xFF
+VPad_L_Stick_Y_Deadzone 	=	  0x06
+VPad_L_Stick_Y_Invert		  = 	True
